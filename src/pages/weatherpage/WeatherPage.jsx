@@ -1,17 +1,21 @@
 import React, {useEffect, useState} from "react";
 import {connect, useDispatch} from "react-redux";
 import GetWeatherDetails from "./getWeatherData";
+import "./weather-page.scss";
+import {Link, withRouter} from "react-router-dom";
+
+/* Other Component Imports */
 import DateDisplay from "../../components/date-display/DateDisplay";
 import GeneralWeather from "../../components/general-weather/GeneralWeather";
 import CardContainer from "../../components/card-container/CardContainer";
 import Button from "../../components/button/Button";
+import WeatherIcon from "../../components/weather-icon/WeatherIcon";
+
+/* Redux Imports */
 import {setCountryAction} from "../../redux/location/location.action";
 import {setDateAction} from "../../redux/date/date.action";
 import {setTempAction} from "../../redux/temperature/temperature.action";
 import {setIconAction} from "../../redux/icon/icon.action";
-import "./weather-page.scss";
-import WeatherIcon from "../../components/weather-icon/WeatherIcon";
-import {Link, withRouter} from "react-router-dom";
 
 function WeatherPage(props){
     const cityName = props.cityName;
