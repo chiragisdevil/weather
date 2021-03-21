@@ -8,10 +8,7 @@ function CardContainer({forecast}){
     let dailyRecord = null;
     if (forecast){
         dailyRecord = forecast.filter((item, index) => (index % 8 === 0))
-        console.log(dailyRecord);
-    } else {
-        console.log(dailyRecord);
-    }
+    } 
     
     return(
         <div className="card-list">

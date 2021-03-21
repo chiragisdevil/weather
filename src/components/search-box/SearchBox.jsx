@@ -16,7 +16,7 @@ function SearchBox(props){
     const path = (props.navigate?props.navigate:"/");
     return (
         <div>
-                <input type="search" className="search-bar" placeholder = { props.placeholder} onChange={(event) => setItem(event.target.value)} />
+                <input type="search" className="search-bar" placeholder = { props.placeholder} onChange={(event) => setItem(event.target.value)} value = {item}/>
                 <Link to= {path}>
                     <BsSearch className="search-icon" onClick={() => props.setSearchedItem(item)}/>
                 </Link>

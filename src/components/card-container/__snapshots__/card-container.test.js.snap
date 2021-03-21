@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component tests checks if card container component matches the snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Card Component tests checks if card container component matches the snapshot 2`] = `ShallowWrapper {}`;

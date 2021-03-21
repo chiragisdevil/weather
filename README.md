@@ -14,6 +14,7 @@ The original documentation for this project was written by Chirag Walia (chiragi
   + [Redux store](#redux-store)
   + [Connecting to State](#connecting-to-state)
 * [CSS Styling](#css-styling)
+* [Things that would get done with time](#additional-things-missing)
 
 ## Overview
 
@@ -146,3 +147,9 @@ More details are available [here](https://redux.js.org/basics/usage-with-react).
 ## CSS Styling
 
 The web app uses the [Sass](https://sass-lang.com/) CSS pre-processor to manage generation of CSS styles for the web components. Each page, component and visual structure has its own Sass file defined in the component directory. 
+
+## additional-things-missing
+The following things would have been done better if given the time:
+a) Using selectors within the mapStateToProps
+b) Currently coverage of tests is limited. This can be improved by writing some more tests to cover missing codes
+c) Secrets on API key to be stored in .env file
