@@ -7,6 +7,7 @@ The original documentation for this project was written by Chirag Walia (chiragi
 * [Overview](#overview)
   + [Main Technologies](#main-technologies)
 * [Running and Building the app](#Running-and-Building-the-app)
+* [Hosted App](#hosting-the-app) 
 * [Folder Structure](#folder-structure)
   + [File Extensions](#file-extensions)
 * [React](#react)
@@ -57,6 +58,17 @@ To create a build you can run:
 `> npm run build` 
 
 This will build the app in the `build` folder. The build will be minified and optimised for production.
+
+## hosting-the-app
+The site is hosted on heroku and is accessible on 
+https://weatherman29.herokuapp.com/
+
+To create a new domain, you can run the following command from a heroku cli after a 
+`heroku login`
+`heroku create weatherman29 --buildpack https://github.com/mars/create-react-app-buildpack.git`
+
+To deploy, the following command is used:
+`git push heroku main`
 
 ### Folder Structure
 
