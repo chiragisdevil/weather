@@ -1,0 +1,29 @@
+.title{
+    color:white;
+}
+
+.weatherPage{
+    color:rgb(250, 249, 252);
+}
+
+.keyitems{
+    margin-left: 400px;
+    margin-bottom: 25px;
+    
+    // grid-template-columns: 1fr 1fr;
+}
+
+.topItems{
+    margin-left: 30rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    align-items: flex-end;
+    margin-left: 40%;
+    margin-top: 20px;
+}

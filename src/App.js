@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import HomePage from "./pages/homepage/Homepage";
+import WeatherPage from "./pages/weatherpage/WeatherPage";
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
+
+// Created 2 routes. First root points to the homepage to enter the location and second route displays the weather page
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact={true} path="/" component={HomePage} />
+        <Route exact={true} path="/weather" component={WeatherPage} />
+      </Switch>
+    </Router>
   );
 }
 

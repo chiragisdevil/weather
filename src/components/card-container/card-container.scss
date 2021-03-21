@@ -1,0 +1,9 @@
+.card-list {
+    color: black;
+    width: 85vw;
+    margin: 1rem 0 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    font-size: 0.75rem;
+  }
