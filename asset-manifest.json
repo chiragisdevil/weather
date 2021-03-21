@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/weather/static/css/main.e07303ac.chunk.css",
-    "main.js": "/weather/static/js/main.5cbc3010.chunk.js",
-    "main.js.map": "/weather/static/js/main.5cbc3010.chunk.js.map",
-    "runtime-main.js": "/weather/static/js/runtime-main.e5bd33c0.js",
-    "runtime-main.js.map": "/weather/static/js/runtime-main.e5bd33c0.js.map",
-    "static/js/2.772f07ca.chunk.js": "/weather/static/js/2.772f07ca.chunk.js",
-    "static/js/2.772f07ca.chunk.js.map": "/weather/static/js/2.772f07ca.chunk.js.map",
-    "static/js/3.d0b76b2b.chunk.js": "/weather/static/js/3.d0b76b2b.chunk.js",
-    "static/js/3.d0b76b2b.chunk.js.map": "/weather/static/js/3.d0b76b2b.chunk.js.map",
-    "index.html": "/weather/index.html",
-    "static/css/main.e07303ac.chunk.css.map": "/weather/static/css/main.e07303ac.chunk.css.map",
-    "static/js/2.772f07ca.chunk.js.LICENSE.txt": "/weather/static/js/2.772f07ca.chunk.js.LICENSE.txt",
-    "static/media/homepageimg.24667329.jpg": "/weather/static/media/homepageimg.24667329.jpg"
+    "main.css": "/weatherman/static/css/main.e07303ac.chunk.css",
+    "main.js": "/weatherman/static/js/main.5cbc3010.chunk.js",
+    "main.js.map": "/weatherman/static/js/main.5cbc3010.chunk.js.map",
+    "runtime-main.js": "/weatherman/static/js/runtime-main.1dd7885f.js",
+    "runtime-main.js.map": "/weatherman/static/js/runtime-main.1dd7885f.js.map",
+    "static/js/2.772f07ca.chunk.js": "/weatherman/static/js/2.772f07ca.chunk.js",
+    "static/js/2.772f07ca.chunk.js.map": "/weatherman/static/js/2.772f07ca.chunk.js.map",
+    "static/js/3.d0b76b2b.chunk.js": "/weatherman/static/js/3.d0b76b2b.chunk.js",
+    "static/js/3.d0b76b2b.chunk.js.map": "/weatherman/static/js/3.d0b76b2b.chunk.js.map",
+    "index.html": "/weatherman/index.html",
+    "static/css/main.e07303ac.chunk.css.map": "/weatherman/static/css/main.e07303ac.chunk.css.map",
+    "static/js/2.772f07ca.chunk.js.LICENSE.txt": "/weatherman/static/js/2.772f07ca.chunk.js.LICENSE.txt",
+    "static/media/homepageimg.24667329.jpg": "/weatherman/static/media/homepageimg.24667329.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5bd33c0.js",
+    "static/js/runtime-main.1dd7885f.js",
     "static/js/2.772f07ca.chunk.js",
     "static/css/main.e07303ac.chunk.css",
     "static/js/main.5cbc3010.chunk.js"
