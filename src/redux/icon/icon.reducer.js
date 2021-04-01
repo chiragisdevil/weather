@@ -1,3 +1,5 @@
+// Reducer to capture the icon details
+
 const INITIAL_STATE = {
     icon: null
 }

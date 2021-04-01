@@ -1,3 +1,5 @@
+// Displays a styled button. Takes children to support different text
+
 import React from "react";
 import "./button.scss";
 

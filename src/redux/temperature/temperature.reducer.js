@@ -1,3 +1,5 @@
+// Reducer to capture the temp data
+
 const INITIAL_STATE = {
     temp: null
 }

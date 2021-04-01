@@ -61,7 +61,7 @@ This will build the app in the `build` folder. The build will be minified and op
 
 ## hosting-the-app
 The site is hosted on heroku and is accessible on 
-https://weatherman29.herokuapp.com/
+`https://weatherman29.herokuapp.com/`
 
 To create a new domain, you can run the following command from a heroku cli after a 
 `heroku login`

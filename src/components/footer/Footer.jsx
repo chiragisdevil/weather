@@ -1,3 +1,4 @@
+// Created a simple footer to copyright the code
 import React from "react";
 import "./footer.css";
 

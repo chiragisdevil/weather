@@ -1,4 +1,4 @@
-// import React, {useState} from "react";
+//  API Call to open weather map. This takes the city name as the input and returns weather data
 
 function GetWeatherDetails(cityName){
 

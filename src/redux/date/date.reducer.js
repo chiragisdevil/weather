@@ -1,3 +1,5 @@
+// Reducer to capture the fetch Date
+
 const INITIAL_STATE = {
     fetchDate: null
 }

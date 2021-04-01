@@ -1,3 +1,5 @@
+// Sample stub data for testing purpose
+
 export const sampleTestData = [
     {
       "dt": 1616241600,

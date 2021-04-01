@@ -1,3 +1,5 @@
+// Displays the nearest weather details by picking it up from Redux. Stores details such as Feels like, Max & Min tem and huidity
+
 import React from "react";
 import {connect} from "react-redux";
 import "./general-weather.scss";
@@ -18,6 +20,7 @@ function GeneralWeather(props){
     )
 }
 
+// Pull the temperature details from redux
 const mapStateToProps= (state) => ({
     temperature: state.temperature.temp
 })

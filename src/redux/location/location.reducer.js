@@ -1,3 +1,5 @@
+// Reducer to capture the location Data. This will be used to set the cityname as well as set the country
+
 const INITIAL_STATE = {
     cityName: null
 }

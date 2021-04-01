@@ -13,11 +13,14 @@ import "./search-box.scss";
 function SearchBox(props){
     //Local State as we'd like to set the SearchedItem state only when search icon is clicked
     const [item, setItem] = useState();
+    // Use the navigate property passed as props to determine the path to navigate to. Default to the home route if no props available
     const path = (props.navigate?props.navigate:"/");
     return (
         <div>
+            {/* Searchbox capable of listening to keypresses & storing the value into the item property */}
                 <input type="search" className="search-bar" placeholder = { props.placeholder} onChange={(event) => setItem(event.target.value)} value = {item}/>
                 <Link to= {path}>
+                    {/* Used a custom search symbol using the react-icons. Store the searched text in the parent component's setSearchedItem hooks */}
                     <BsSearch className="search-icon" onClick={() => props.setSearchedItem(item)}/>
                 </Link>
        </div>

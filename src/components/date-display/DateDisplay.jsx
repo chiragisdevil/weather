@@ -5,6 +5,7 @@ import moment from "moment";
 
 function DateDisplay(props){
     const unixDate = props.date;
+    // Convert to a format "Day, Month Date, Year hours:minutes:Seconds AM/PM"
     const fetchDate = moment.unix(unixDate).format('dddd, MMMM Do, YYYY h:mm:ss A');
 
     return (
@@ -12,6 +13,7 @@ function DateDisplay(props){
     )
 }
 
+// Pick the current date stored within Redux as the date of fetching
 const mapStateToProps = (state) => ({
     date: state.date.fetchDate
 })
